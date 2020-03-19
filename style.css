@@ -5,6 +5,8 @@ html {
     margin : 10px 10px 0px 10px;
 }
 
+
+
 /* Global */
 
 * {
@@ -943,7 +945,15 @@ footer img {
     font-style: normal;
 }
 
+.hide {
+    display:none;
+}
 
+.taille {
+    background-color: grey;
+    color:white;
+    font-size:15px;
+}
 
 
 /*footer {
