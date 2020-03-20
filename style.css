@@ -92,9 +92,9 @@ a, .homeButton {
     font-family: 'Montserrat', sans-serif;
 }
 
-a:hover, .homeButton:hover {
+/* a:hover, .homeButton:hover {
     color: white;
-}
+} */
 
 @media only screen and (min-width:1200px) {
    
@@ -111,6 +111,42 @@ a:hover, .homeButton:hover {
         margin-left: 10px;
     }
 }
+
+a:hover {
+  background-color: green;
+}
+
+/* Au hover sur le bouton, on joue les deux animations une seule fois - chaque animation dure 0.3s */
+
+/* :hover span > span {
+    animation: fadeToTop 0.3s cubic-bezier(0.95, 0.05, 0.795, 0.035) 1 forwards, fadeFromBottom 0.3s cubic-bezier(0.19, 1, 0.22, 1) 1 forwards;
+}
+}
+
+.split-character span {
+display: inline-block;
+}
+
+// Les lettres disparaissent vers le haut dans un premier temps
+@keyframes fadeToTop {
+to {
+    transform: translate3d(0, -10px, 0);
+    opacity: 0;
+}
+}
+
+// Les lettres réapparaissent depuis le bas dans un second temps
+@keyframes fadeFromBottom {
+from {
+    transform: translate3d(0, 10px, 0);
+    opacity: 0;
+}
+to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+} */
+
 /*
 .##....##....###....##.....##.########.....###....########.
 .###...##...##.##...##.....##.##.....##...##.##...##.....##
