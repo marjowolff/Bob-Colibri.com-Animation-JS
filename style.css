@@ -1,5 +1,10 @@
 
+:root {
+    --vert :  rgba(206, 218, 130, 0.1);
+    --noir : black;
+    --blanc : white;
 
+}
 html {
     min-width:200px;
     margin : 10px 10px 0px 10px;
@@ -13,6 +18,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
     
 } 
 
@@ -21,8 +27,16 @@ html {
 	src: url('Playlist Script.otf');
 }
 
+
+
 main {
-    background: rgba(206, 218, 130, 0.1);
+    background-color: var(--vert);
+    color:var(--noir);
+}
+
+[dark-theme='dark'] {
+    background-color: var(--noir);
+    color:var(--blanc);
 }
 
 .offSetPage {
@@ -955,6 +969,9 @@ footer img {
     font-size:15px;
 }
 
+#toggler {
+    align-items: center;
+}
 
 /*footer {
     display: flex;
