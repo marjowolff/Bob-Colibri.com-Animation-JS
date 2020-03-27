@@ -428,6 +428,13 @@ p
 /*GalleryTheme*/
 
 
+.liAnimals {
+    border : rgb(114,217,228) 1px solid;
+    padding : 10px;
+    width : 50%;
+}
+
+
 .row {
     display: flex;
     width: 100%;
